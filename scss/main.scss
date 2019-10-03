@@ -1,2 +1,10 @@
 @import "core/normalize";
-@import "modules/navigation";
+@import "core/base.scss";
+@import "sections/header";
+@import "sections/service.scss";
+@import "sections/portfolio.scss";
+@import "sections/about.scss";
+@import "sections/team.scss";
+@import "sections/logos.scss";
+@import "sections/contact.scss";
+@import "sections/footer.scss";
