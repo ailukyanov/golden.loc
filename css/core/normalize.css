@@ -302,16 +302,3 @@ template {
  */
 [hidden] {
   display: none; }
-
-body {
-  background: red;
-  text-align: center; }
-  body h1 {
-    background: yellow;
-    border: 1px solid white; }
-  body h2 {
-    background: blue;
-    text-transform: uppercase; }
-  body h3 {
-    background: green;
-    text-transform: uppercase; }

@@ -1,13 +1,19 @@
 body {
   background: red;
+  text-align: center;
 
   h1 {
-    font-weight: lighter;
     background: yellow;
-    text-transform: uppercase;
+    border: 1px solid white;
   }
 
   h2 {
     background: blue;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    background: green;
+    text-transform: uppercase;
   }
 }
