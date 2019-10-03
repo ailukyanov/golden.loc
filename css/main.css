@@ -2,6 +2,7 @@ body {
   background: red; }
   body h1 {
     font-weight: lighter;
-    background: yellow; }
+    background: yellow;
+    text-transform: uppercase; }
   body h2 {
     background: blue; }
