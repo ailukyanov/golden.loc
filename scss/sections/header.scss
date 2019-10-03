@@ -65,22 +65,4 @@
     letter-spacing: -1.8px;
     margin: 0 0 40px;
   }
-
-  .btn {
-    line-height: 65px;
-    height: 65px;
-    margin: 0;
-    border: none;
-    padding: 0 30px;
-    border-radius: 3px;
-    font-size: 24px;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-weight: bold;
-
-    &__yellow {
-      background-color: #fed136;
-      color: #ffffff;
-    }
-  }
 }
