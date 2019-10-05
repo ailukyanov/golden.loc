@@ -1,0 +1,14 @@
+.about__item {
+  position: relative;
+  display: flex;
+  margin-bottom: 10px; }
+
+.about__title {
+  font-size: 18px;
+  color: #222222;
+  font-weight: bold; }
+
+.about__description {
+  font-size: 16px;
+  color: #777777;
+  font-family: "Times New Roman", sans-serif; }

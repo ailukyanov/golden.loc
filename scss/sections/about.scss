@@ -1,0 +1,26 @@
+.about {
+
+  &__content {
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  &__icon {
+  }
+
+  &__title {
+    font-size: 18px;
+    color: #222222;
+    font-weight: bold;
+  }
+
+  &__description {
+    font-size: 16px;
+    color: #777777;
+    font-family: "Times New Roman", sans-serif;
+  }
+}
