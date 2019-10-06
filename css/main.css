@@ -439,6 +439,12 @@ body {
   display: flex;
   margin-bottom: 10px; }
 
+.about__icon {
+  height: 169px;
+  margin: 0 auto;
+  border: 7px solid #f1f1f1;
+  border-radius: 50%; }
+
 .about__title {
   font-size: 18px;
   color: #222222;
