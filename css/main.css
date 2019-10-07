@@ -573,3 +573,14 @@ body {
           background-position: -120px -40px; }
         .team__social a .ic-gl .black {
           background-position: -120px -40px; }
+
+.logos {
+  padding: 60px 0;
+  text-align: center; }
+  .logos__content a {
+    display: inline-block;
+    margin-right: 40px; }
+    .logos__content a:last-child {
+      margin-right: 0; }
+  .logos__content img {
+    vertical-align: middle; }
