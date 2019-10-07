@@ -577,10 +577,10 @@ body {
 .logos {
   padding: 60px 0;
   text-align: center; }
-  .logos__content a {
+  .logos a {
     display: inline-block;
     margin-right: 40px; }
-    .logos__content a:last-child {
+    .logos a:last-child {
       margin-right: 0; }
-  .logos__content img {
+  .logos img {
     vertical-align: middle; }

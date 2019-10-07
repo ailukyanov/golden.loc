@@ -3,18 +3,18 @@
   text-align: center;
 
   &__content {
+  }
 
-    a {
-      display: inline-block;
-      margin-right: 40px;
+  a {
+    display: inline-block;
+    margin-right: 40px;
 
-      &:last-child {
-        margin-right: 0;
-      }
+    &:last-child {
+      margin-right: 0;
     }
+  }
 
-    img {
-      vertical-align: middle;
-    }
+  img {
+    vertical-align: middle;
   }
 }
