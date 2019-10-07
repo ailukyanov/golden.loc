@@ -539,40 +539,40 @@ body {
       border: 3px solid #222;
       border-radius: 50%;
       background: url("../images/social-sprite.png") no-repeat; }
-      .team__social a .black {
-        background-color: #222; }
-      .team__social a .ic-tw {
-        background-position: 0 0; }
-        .team__social a .ic-tw:hover {
-          border-color: #00aced;
-          background-color: #00aced;
-          background-position: 0 -40px; }
-        .team__social a .ic-tw .black {
-          background-position: 0 -40px; }
-      .team__social a .ic-fb {
-        background-position: -40px 0; }
-        .team__social a .ic-fb:hover {
-          border-color: #3b5998;
-          background-color: #3b5998;
-          background-position: -40px -40px; }
-        .team__social a .ic-fb .black {
-          background-position: -40px -40px; }
-      .team__social a .ic-pn {
-        background-position: -80px 0; }
-        .team__social a .ic-pn:hover {
-          border-color: #cb2028;
-          background-color: #cb2028;
-          background-position: -80px -40px; }
-        .team__social a .ic-pn .black {
-          background-position: -80px -40px; }
-      .team__social a .ic-gl {
-        background-position: -120px 0; }
-        .team__social a .ic-gl:hover {
-          border-color: #d95232;
-          background-color: #d95232;
-          background-position: -120px -40px; }
-        .team__social a .ic-gl .black {
-          background-position: -120px -40px; }
+    .team__social .black {
+      background-color: #222; }
+    .team__social .ic-tw {
+      background-position: 0 0; }
+      .team__social .ic-tw:hover {
+        border-color: #00aced;
+        background-color: #00aced;
+        background-position: 0 -40px; }
+      .team__social .ic-tw .black {
+        background-position: 0 -40px; }
+    .team__social .ic-fb {
+      background-position: -40px 0; }
+      .team__social .ic-fb:hover {
+        border-color: #3b5998;
+        background-color: #3b5998;
+        background-position: -40px -40px; }
+      .team__social .ic-fb .black {
+        background-position: -40px -40px; }
+    .team__social .ic-pn {
+      background-position: -80px 0; }
+      .team__social .ic-pn:hover {
+        border-color: #cb2028;
+        background-color: #cb2028;
+        background-position: -80px -40px; }
+      .team__social .ic-pn .black {
+        background-position: -80px -40px; }
+    .team__social .ic-gl {
+      background-position: -120px 0; }
+      .team__social .ic-gl:hover {
+        border-color: #d95232;
+        background-color: #d95232;
+        background-position: -120px -40px; }
+      .team__social .ic-gl .black {
+        background-position: -120px -40px; }
 
 .logos {
   padding: 60px 0;
