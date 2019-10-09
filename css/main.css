@@ -348,8 +348,8 @@ body {
       color: #777777;
       font-family: "Times New Roman", sans-serif;
       margin: 0; }
-  body .team__social a,
-  body .footer__social a {
+  body .team a,
+  body .footer a {
     display: inline-block;
     width: 40px;
     height: 40px;
