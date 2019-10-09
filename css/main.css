@@ -348,52 +348,64 @@ body {
       color: #777777;
       font-family: "Times New Roman", sans-serif;
       margin: 0; }
-  body .social {
-    margin-top: 10px; }
-    body .social a {
-      display: inline-block;
-      width: 40px;
-      height: 40px;
-      margin: 0 3px;
-      border: 3px solid #222;
-      -webkit-border-radius: 50%;
-         -moz-border-radius: 50%;
-              border-radius: 50%;
-      background: url("../images/social-sprite.png") no-repeat; }
-    body .social .black {
-      background-color: #222; }
-    body .social .ic-tw {
-      background-position: 0 0; }
-      body .social .ic-tw:hover {
-        border-color: #00aced;
-        background-color: #00aced;
-        background-position: 0 -40px; }
-      body .social .ic-tw .black {
-        background-position: 0 -40px; }
-    body .social .ic-fb {
-      background-position: -40px 0; }
-      body .social .ic-fb:hover {
-        border-color: #3b5998;
-        background-color: #3b5998;
-        background-position: -40px -40px; }
-      body .social .ic-fb .black {
-        background-position: -40px -40px; }
-    body .social .ic-pn {
-      background-position: -80px 0; }
-      body .social .ic-pn:hover {
-        border-color: #cb2028;
-        background-color: #cb2028;
-        background-position: -80px -40px; }
-      body .social .ic-pn .black {
-        background-position: -80px -40px; }
-    body .social .ic-gl {
-      background-position: -120px 0; }
-      body .social .ic-gl:hover {
-        border-color: #d95232;
-        background-color: #d95232;
-        background-position: -120px -40px; }
-      body .social .ic-gl .black {
-        background-position: -120px -40px; }
+  body .team a,
+  body .footer a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 3px;
+    border: 3px solid #222;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    background: url("../images/social-sprite.png") no-repeat; }
+  body .team .black,
+  body .footer .black {
+    background-color: #222; }
+  body .team .ic-tw,
+  body .footer .ic-tw {
+    background-position: 0 0; }
+    body .team .ic-tw:hover,
+    body .footer .ic-tw:hover {
+      border-color: #00aced;
+      background-color: #00aced;
+      background-position: 0 -40px; }
+    body .team .ic-tw .black,
+    body .footer .ic-tw .black {
+      background-position: 0 -40px; }
+  body .team .ic-fb,
+  body .footer .ic-fb {
+    background-position: -40px 0; }
+    body .team .ic-fb:hover,
+    body .footer .ic-fb:hover {
+      border-color: #3b5998;
+      background-color: #3b5998;
+      background-position: -40px -40px; }
+    body .team .ic-fb .black,
+    body .footer .ic-fb .black {
+      background-position: -40px -40px; }
+  body .team .ic-pn,
+  body .footer .ic-pn {
+    background-position: -80px 0; }
+    body .team .ic-pn:hover,
+    body .footer .ic-pn:hover {
+      border-color: #cb2028;
+      background-color: #cb2028;
+      background-position: -80px -40px; }
+    body .team .ic-pn .black,
+    body .footer .ic-pn .black {
+      background-position: -80px -40px; }
+  body .team .ic-gl,
+  body .footer .ic-gl {
+    background-position: -120px 0; }
+    body .team .ic-gl:hover,
+    body .footer .ic-gl:hover {
+      border-color: #d95232;
+      background-color: #d95232;
+      background-position: -120px -40px; }
+    body .team .ic-gl .black,
+    body .footer .ic-gl .black {
+      background-position: -120px -40px; }
 
 .header {
   height: 700px;
@@ -684,6 +696,8 @@ body {
     font-size: 14px;
     color: #777777;
     font-family: "Times New Roman", sans-serif; }
+  .team__social {
+    margin-top: 10px; }
 
 .logos {
   padding: 60px 0;
@@ -695,5 +709,69 @@ body {
       margin-right: 0; }
   .logos img {
     vertical-align: middle; }
+
+.contact {
+  text-align: center;
+  background: #222222 url("../../images/maps-bg.png") no-repeat right 355px bottom -70px; }
+  .contact h3 {
+    color: #ffffff;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0 0 11px; }
+  .contact p {
+    font-size: 16px;
+    color: #777777;
+    font-family: "Times New Roman", sans-serif;
+    margin: 0; }
+  .contact__form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    margin-bottom: 30px;
+    margin-top: 80px; }
+  .contact__form-left input {
+    width: 456px;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold; }
+  .contact__form-right {
+    margin-left: 28px; }
+    .contact__form-right textarea {
+      width: 456px;
+      height: 162px;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: bold; }
+
+.footer__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  margin-bottom: 30px; }
+
+.footer__copytext {
+  margin-top: 35px;
+  font: 14px/14px Arial, sans-serif;
+  color: #555555; }
+
+.footer__social {
+  margin-top: 20px;
+  margin-left: 135px; }
 
 /*# sourceMappingURL=main.css.map */
