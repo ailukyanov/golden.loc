@@ -28,6 +28,7 @@
 
       &__item {
         margin-right: 42px;
+
         &:last-child {
           margin-right: 8px;
         }
@@ -37,6 +38,7 @@
           color: #ffffff;
           text-transform: uppercase;
           text-decoration: none;
+
           &:hover {
           }
         }
