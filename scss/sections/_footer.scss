@@ -15,5 +15,52 @@
   &__social {
     margin-top: 20px;
     margin-left: 135px;
+
+    .tw,
+    .fb,
+    .pn,
+    .gl {
+      background-color: #222222;
+    }
+
+    .tw {
+      background-position: 0 -40px;
+
+      &:hover {
+        border-color: #00aced;
+        background-color: #00aced;
+        background-position: 0 -40px;
+      }
+    }
+
+    .fb {
+      background-position: -40px -40px;
+
+      &:hover {
+        border-color: #3b5998;
+        background-color: #3b5998;
+        background-position: -40px -40px;
+      }
+    }
+
+    .pn {
+      background-position: -80px -40px;
+
+      &:hover {
+        border-color: #cb2028;
+        background-color: #cb2028;
+        background-position: -80px -40px;
+      }
+    }
+
+    .gl {
+      background-position: -120px -40px;
+
+      &:hover {
+        border-color: #d95232;
+        background-color: #d95232;
+        background-position: -120px -40px ;
+      }
+    }
   }
 }
