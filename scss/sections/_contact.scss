@@ -30,8 +30,13 @@
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     border-radius: 4px;
+    padding-left: 20px;
+
+    &::placeholder {
+      color: #bbbbbb;
+    }
   }
 
   &__description-left {
@@ -46,7 +51,10 @@
     margin-left: 28px;
 
     textarea {
-      height: 215px;
+      height: 201px;
+      padding-top: 17px;
+      resize: none;
+
     }
   }
 }
