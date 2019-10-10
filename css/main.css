@@ -731,21 +731,39 @@ body {
     padding-left: 20px; }
     .contact input::-webkit-input-placeholder,
     .contact textarea::-webkit-input-placeholder {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
       color: #bbbbbb; }
     .contact input:-moz-placeholder,
     .contact textarea:-moz-placeholder {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
       color: #bbbbbb; }
     .contact input::-moz-placeholder,
     .contact textarea::-moz-placeholder {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
       color: #bbbbbb; }
     .contact input:-ms-input-placeholder,
     .contact textarea:-ms-input-placeholder {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
       color: #bbbbbb; }
     .contact input::-ms-input-placeholder,
     .contact textarea::-ms-input-placeholder {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
       color: #bbbbbb; }
     .contact input::placeholder,
     .contact textarea::placeholder {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
       color: #bbbbbb; }
   .contact__description-left input {
     height: 50px;
