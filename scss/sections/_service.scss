@@ -4,11 +4,22 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+
+    @media screen and (max-width: 640px) {
+      flex-direction: column;
+    }
   }
 
   &__item {
     text-align: center;
     width: 30%;
+    
+    @media screen and (max-width: 640px) {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
   }
 
   &__icon {

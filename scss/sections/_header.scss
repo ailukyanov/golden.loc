@@ -3,6 +3,11 @@
   background-image: url("../images/home-bg.jpg");
   background-size: cover;
 
+  @media screen and (max-width: 640px) {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
   &__top {
     display: flex;
     justify-content: space-between;
