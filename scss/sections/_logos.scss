@@ -6,6 +6,11 @@
     display: inline-block;
     margin-right: 40px;
 
+    @media screen and (max-width: 818px) {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+
     &:last-child {
       margin-right: 0;
     }

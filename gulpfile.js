@@ -1,16 +1,34 @@
 'use strict';
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var browserSync = require('browser-sync').create();
-var sourcemaps = require('gulp-sourcemaps');
-var postcss = require('gulp-postcss');
-var autoprefixer = require('autoprefixer');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const browserSync = require('browser-sync').create();
+const sourcemaps = require('gulp-sourcemaps');
+const postcss = require('gulp-postcss');
+const autoprefixer = require('autoprefixer');
 
 sass.compiler = require('node-sass');
 
+// Общий конфиг сборщика
+const config = {
+    proxy: {
+        host: 'golden.loc',
+        port: 4000
+    },
+    watch: {
+        path: {
+            html: "**/*.html",
+            scss: "./scss/**/*.scss"
+        }
+    },
+    sass: {
+        src: './scss/**/*.scss',
+        dest: './css',
+    }
+};
+
 gulp.task('sass', function () {
-    return gulp.src('./scss/**/*.scss')
+    return gulp.src(config.sass.src)
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss([
@@ -19,7 +37,7 @@ gulp.task('sass', function () {
             })
         ]))
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('./css'))
+        .pipe(gulp.dest(config.sass.dest))
         .pipe(browserSync.stream());
 
 });
@@ -27,10 +45,10 @@ gulp.task('sass', function () {
 // Starts a BrowerSync instance
 gulp.task('default', gulp.series('sass', function(){
     browserSync.init({
-        server: ".",
-        port: 4000
+        proxy: config.proxy.host,
+        port: config.proxy.port
     });
 
-    gulp.watch("*.html").on("change", browserSync.reload);
-    gulp.watch('./scss/**/*.scss', gulp.series('sass'));
+    gulp.watch(config.watch.path.html).on("change", browserSync.reload);
+    gulp.watch(config.watch.path.scss, gulp.series('sass'));
 }));
