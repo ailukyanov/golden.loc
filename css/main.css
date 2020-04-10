@@ -598,6 +598,16 @@ body {
      -moz-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  @media screen and (max-width: 733px) {
+    .about__item {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+         -moz-box-orient: vertical;
+         -moz-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      margin-bottom: 0; } }
   .about__item:before {
     -webkit-box-flex: 1;
     -webkit-flex: 1 0 0;
@@ -615,8 +625,14 @@ body {
     margin: auto;
     background-color: #f1f1f1;
     content: ""; }
+    @media screen and (max-width: 733px) {
+      .about__item:after {
+        position: relative; } }
   .about__item .about__icon {
     margin: 0 38px; }
+    @media screen and (max-width: 733px) {
+      .about__item .about__icon {
+        margin: 0 auto; } }
   .about__item--reverse {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
@@ -625,8 +641,21 @@ body {
        -moz-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse; }
+    @media screen and (max-width: 733px) {
+      .about__item--reverse {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
     .about__item--reverse .about__box {
       text-align: right; }
+      @media screen and (max-width: 733px) {
+        .about__item--reverse .about__box {
+          text-align: center;
+          margin-top: 10px; } }
   .about__item:last-of-type:after, .about__item:last-of-type:before {
     display: none; }
 
@@ -670,6 +699,9 @@ body {
     line-height: 26px;
     text-align: center;
     text-decoration: none; }
+    @media screen and (max-width: 733px) {
+      .about__icon--btn {
+        padding: 0 35px; } }
 
 .about__title {
   font-size: 18px;
@@ -691,6 +723,10 @@ body {
      -moz-box-flex: 1;
       -ms-flex: 1 0 0px;
           flex: 1 0 0; }
+  @media screen and (max-width: 733px) {
+    .about__box {
+      text-align: center;
+      margin-top: 10px; } }
 
 .team {
   background-color: #f7f7f7; }

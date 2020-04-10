@@ -7,6 +7,11 @@
     align-items: start;
     justify-content: center;
 
+    @media screen and (max-width: 733px) {
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+
     &:before {
       flex: 1 0 0;
       content: "";
@@ -22,17 +27,34 @@
       margin: auto;
       background-color: #f1f1f1;
       content: "";
+
+      @media screen and (max-width: 733px) {
+       position: relative;
+      }
     }
 
     .about__icon {
       margin: 0 38px;
+
+      @media screen and (max-width: 733px) {
+        margin: 0 auto;
+      }
     }
 
     &--reverse {
       flex-direction: row-reverse;
 
+      @media screen and (max-width: 733px) {
+        flex-direction: column;
+      }
+
       .about__box {
         text-align: right;
+
+        @media screen and (max-width: 733px) {
+          text-align: center;
+          margin-top: 10px;
+        }
       }
     }
 
@@ -69,6 +91,10 @@
       line-height: 26px;
       text-align: center;
       text-decoration: none;
+
+      @media screen and (max-width: 733px) {
+        padding: 0 35px;
+      }
     }
   }
 
@@ -90,5 +116,10 @@
 
   &__box {
     flex: 1 0 0;
+
+    @media screen and (max-width: 733px) {
+      text-align: center;
+      margin-top: 10px;
+    }
   }
 }
