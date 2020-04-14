@@ -313,53 +313,58 @@ template {
 
 body {
   font-family: Arial, sans-serif; }
-  body .wrapper {
-    max-width: 940px;
-    margin: 0 auto;
-    padding: 0 20px; }
-  body .section {
-    padding: 107px 0; }
-  body .btn {
-    line-height: 65px;
-    height: 65px;
-    margin: 0;
-    border: none;
-    padding: 0 30px;
-    -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-            border-radius: 3px;
-    font-size: 24px;
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+.section {
+  padding: 107px 0; }
+
+.btn {
+  line-height: 65px;
+  height: 65px;
+  margin: 0;
+  border: none;
+  padding: 0 30px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  font-size: 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold; }
+  .btn__yellow {
+    background-color: #fed136;
+    color: #ffffff; }
+
+.pageTitle {
+  text-align: center;
+  margin-bottom: 75px; }
+  .pageTitle h3 {
+    font-size: 40px;
+    color: #222222;
     text-transform: uppercase;
-    cursor: pointer;
-    font-weight: bold; }
-    body .btn__yellow {
-      background-color: #fed136;
-      color: #ffffff; }
-  body .pageTitle {
-    text-align: center;
-    margin-bottom: 75px; }
-    body .pageTitle h3 {
-      font-size: 40px;
-      color: #222222;
-      text-transform: uppercase;
-      margin: 0 0 11px; }
-    body .pageTitle p {
-      font-size: 16px;
-      color: #777777;
-      font-family: "Times New Roman", sans-serif;
-      margin: 0; }
-  body .team a,
-  body .footer a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin: 0 3px;
-    border: 3px solid #222;
-    -webkit-border-radius: 50%;
-       -moz-border-radius: 50%;
-            border-radius: 50%;
-    background: url("../images/social-sprite.png") no-repeat;
-    text-decoration: none; }
+    margin: 0 0 11px; }
+  .pageTitle p {
+    font-size: 16px;
+    color: #777777;
+    font-family: "Times New Roman", sans-serif;
+    margin: 0; }
+
+.team a,
+.footer a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 3px;
+  border: 3px solid #222;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  background: url("../images/social-sprite.png") no-repeat;
+  text-decoration: none; }
 
 .header {
   height: 700px;
